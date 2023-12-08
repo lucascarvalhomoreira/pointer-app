@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "SEU-BUCKET-NAME"
+    bucket = "carvalho-poiter-apps"
     key    = "pointer-app.tfstate"
     region = "us-east-1"
   }
